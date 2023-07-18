@@ -123,7 +123,7 @@ body {
 }
 .card-container {
   margin-top: 5vh;
-  margin-bottom: 10vh;
+  margin-bottom: 3vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -156,6 +156,52 @@ body {
   line-height: 143%;
   letter-spacing: 0.252px;
   padding: 8px 0px;
+}
+.more-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Feature section */
+
+.feature-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+}
+.feature-contents{
+  width: 50%;
+  gap: 50px;
+}
+.feature-img img{
+  width: 100%;
+  height: auto;
+}
+.feature-title{
+  color: var(--footer-bg);
+font-size: 2.1rem;
+font-weight: 700;
+line-height: 60px;
+}
+footer{
+  background-color: var(--footer-bg);
+}
+.footer-container{
+  margin-top: 10vh;
+  text-align: center;
+  color: #fff;
+  padding: 80px 0px;
+  
+}
+.footer-title{
+  font-size: 1.8rem ;
+  font-weight: 700 ;
+  line-height: 70px;
+}
+.fa-brands{
+  padding: 40px 20px 0px 20px;
+  font-size: 1.9rem;
 }
 
 /* mobile devices */
@@ -219,6 +265,36 @@ body {
     font-size: 0.7rem;
     font-weight: 500;
   }
+  .more-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .feature-section{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .feature-contents{
+    width: 90%;
+    text-align: center;
+  }
+  .feature-title{
+  font-size: 1.2rem;
+  line-height: 30px;
+  }
+  .footer-container{
+    padding: 40px 0px;
+  }
+  .footer-container p{
+    font-size: 0.6rem;
+  }
+  .footer-title{
+    font-size: 1.2rem ;
+  }
+  .fa-brands{
+    padding: 30px 10px 0px 10px;
+    font-size: 1.2rem;
+  }
 }
 
 /* Tablet or laptop devices */
@@ -276,5 +352,32 @@ body {
   .card-description {
     font-size: 0.7rem;
     font-weight: 500;
+  }
+  .more-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .feature-section{
+   justify-content: space-around;
+  }
+  .feature-contents{
+    width: 50%;
+  }
+  .feature-title{
+  font-size: 1.2rem;
+  line-height: 30px;
+  }
+  .footer-container{
+    padding: 40px 0px;
+  }
+  .footer-container p{
+    font-size: 0.6rem;
+  }
+  .footer-title{
+    font-size: 1.2rem ;
+  }
+  .fa-brands{
+    padding: 30px 10px 0px 10px;
+    font-size: 1.2rem;
   }
 }
